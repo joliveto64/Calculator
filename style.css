@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  background-color: antiquewhite;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  border: solid;
+  border-color: rgb(211, 211, 211);
+  padding-inline: 30px;
+  padding-block: 40px;
+  background-color: gainsboro;
+  border-radius: 10px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.display {
+  background-color: aliceblue;
+  margin-bottom: 40px;
+  padding: 20px;
+  font-size: 28px;
+  text-align: right;
+  box-shadow: inset 4px 4px 4px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  min-width: 200px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 12px;
+}
+
+.buttons button {
+  font-size: 18px;
+  color: rgb(41, 41, 41);
+}
